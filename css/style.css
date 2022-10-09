@@ -1,0 +1,158 @@
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.headerflex{
+    text-align: center;
+}
+.headerflex i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.headerflex h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 3.3rem;
+    padding-bottom: 1.3rem;
+}
+.headerflex p{
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+.headerflex p span{
+    font-size: 1.1rem;
+    font-weight: 700;
+    opacity: .6;
+}
+.education{
+    height: auto;
+    padding-bottom: 1rem;
+}
+.educationflex h1{
+    padding-top: 1rem;
+    font-size: 25px;
+    text-align: center;
+}
+.educationflex h2{
+    font-size: 20px;
+    padding-top: 1rem;
+}
+.educationflex ul {
+    font-size: 1.05rem;
+    line-height: 1.5rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+   padding-top: .8rem;
+}
+.educationflex ul li span{
+    font-weight: 900;
+    opacity: .8;
+}
+.key{
+    height: auto;
+}
+.keyflex h1{
+    padding-top: 1rem;
+    font-size: 25px;
+    text-align: center;
+}
+.keyflex h2{
+    font-size: 20px;
+    padding-top: 1rem;
+}
+.keyflex ul {
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+   padding-top: .8rem;
+   opacity: .9;
+}
+.activity{
+    height: auto;
+}
+.activityflex h2{
+    padding: 20px;
+}
+.activity h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 1rem;
+}
+.activity ul {
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+}
+.info{
+    height: auto;
+
+}
+.infoflex h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+.infoflex h2{
+    padding-top: 1rem;
+    font-size: 20px;
+}
+.infoflex p {
+    font-size: 1.05rem;
+    line-height: 1.8rem;
+   text-align: justify;
+   padding-left: 2.5rem;
+   padding-top: .8rem;
+   opacity: .9;
+}
+.infoflex p span{
+    font-size: 1rem;
+    font-weight: 700;
+}
+@media(min-width:760px){
+    .container{
+        width:80%;
+        margin:auto;
+    }
+}
+@media(min-width:1000px){
+    .container{
+        width:80%;
+        margin:auto;
+        
+    }
+    .headerflex h1{
+        font-size: 1.7rem;
+        font-weight: 900;
+        padding-top: 3.3rem;
+        padding-bottom: 1.3rem;
+    }
+    .footer p{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    .info p{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    .activity li{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    .education li{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+  .key li{
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+  .key{
+    border-left: solid 1px gray;
+  }
+}
