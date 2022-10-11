@@ -10,47 +10,43 @@ a{
     text-align: center;
 }
 .headerflex i{
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 5px;
 }
 .headerflex h1{
-    font-size: 1.5rem;
-    font-weight: 900;
-    padding-top: 3.3rem;
-    padding-bottom: 1.3rem;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .headerflex p{
-    line-height: 1.5rem;
-    padding-bottom: 1rem;
+    line-height: 1.3;
+    padding-bottom: 10px;
 }
 .headerflex p span{
-    font-size: 1.1rem;
-    font-weight: 700;
-    opacity: .6;
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
 }
 .education{
     height: auto;
-    padding-bottom: 1rem;
+    padding-bottom: 10px;
 }
 .educationflex h1{
-    padding-top: 1rem;
-    font-size: 25px;
+    padding-top: 10px;
+    font-size: 23px;
     text-align: center;
 }
 .educationflex h2{
     font-size: 20px;
-    padding-top: 1rem;
+    padding-top: 20px;
 }
 .educationflex ul {
-    font-size: 1.05rem;
-    line-height: 1.5rem;
-   text-align: justify;
-   padding-left: 2.5rem;
-   padding-top: .8rem;
-}
-.educationflex ul li span{
-    font-weight: 900;
-    opacity: .8;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: justify;
+    padding-left: 70px;
+    padding-top: 12px;
 }
 .key{
     height: auto;
@@ -84,10 +80,10 @@ a{
     padding-top: 1rem;
 }
 .activity ul {
-    font-size: 1.05rem;
-    line-height: 1.6rem;
+    font-size: 1.0px;
+    line-height: 1.px;
    text-align: justify;
-   padding-left: 2.5rem;
+   padding-left: 2.px
 }
 .info{
     height: auto;
@@ -119,18 +115,96 @@ a{
         width:80%;
         margin:auto;
     }
+    .headerflex{
+        text-align: center;
+    }
+    .headerflex i{
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    .headerflex h1{
+        font-size: 27px;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .headerflex p{
+        line-height: 1.3;
+        padding-bottom: 10px;
+    }
+    .headerflex p span{
+        font-size: 22px;
+        font-weight: 600;
+        color: gray;
+    }
+    .education{
+        height: auto;
+        padding-bottom: 12px;
+    }
+    .educationflex h1{
+        padding-top: 13px;
+        font-size: 23px;
+        text-align: center;
+    }
+    .educationflex h2{
+        font-size: 21px;
+        padding-top: 20px;
+    }
+    .educationflex ul {
+        font-size: 18px;
+        line-height: 27px;
+        text-align: justify;
+        padding-left: 100px;
+        padding-top: 12px;
+    }
 }
-@media(min-width:1000px){
+@media(min-width:1020px){
     .container{
         width:80%;
         margin:auto;
-        
+        box-sizing: border-box;
+    }
+    .headerflex{
+        text-align: center;
+    }
+    .headerflex i{
+        font-size: 23px;
+        margin-right: 5px;
     }
     .headerflex h1{
-        font-size: 1.7rem;
-        font-weight: 900;
-        padding-top: 3.3rem;
-        padding-bottom: 1.3rem;
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .headerflex p{
+        line-height: 1.3;
+        padding-bottom: 10px;
+    }
+    .headerflex p span{
+        font-size: 23px;
+        font-weight: 600;
+        color: gray;
+    }
+    .education{
+        height: auto;
+        padding-bottom: 14px;
+    }
+    .educationflex h1{
+        padding-top: 13px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .educationflex h2{
+        font-size: 23px;
+        padding-top: 20px;
+    }
+    .educationflex ul {
+        font-size: 19px;
+        line-height: 27px;
+        text-align: justify;
+        padding-left: 100px;
+        padding-top: 12px;
     }
     .footer p{
         font-size: 1.1rem;
@@ -141,10 +215,6 @@ a{
         line-height: 2rem;
     }
     .activity li{
-        font-size: 1.1rem;
-        line-height: 2rem;
-    }
-    .education li{
         font-size: 1.1rem;
         line-height: 2rem;
     }
