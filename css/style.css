@@ -48,25 +48,24 @@ a{
     padding-left: 70px;
     padding-top: 12px;
 }
-.key{
+.skill{
     height: auto;
 }
-.keyflex h1{
-    padding-top: 1rem;
-    font-size: 25px;
+.skillflex h1{    
+    padding-top: 10px;
+    font-size: 23px;
     text-align: center;
 }
-.keyflex h2{
+.skillflex h2{
     font-size: 20px;
-    padding-top: 1rem;
+    padding-top: 10px;
 }
-.keyflex ul {
-    font-size: 1.05rem;
-    line-height: 1.6rem;
-   text-align: justify;
-   padding-left: 2.5rem;
-   padding-top: .8rem;
-   opacity: .9;
+.skillflex ul {
+    font-size: 17px;
+    line-height: 26px;
+    text-align: justify;
+    padding-left: 70px;
+    padding-top: 10px;
 }
 .activity{
     height: auto;
@@ -156,6 +155,25 @@ a{
         text-align: justify;
         padding-left: 100px;
         padding-top: 12px;
+    }
+    .skill{
+        height: auto;
+    }
+    .skillflex h1{    
+        padding-top: 10px;
+        font-size: 23px;
+        text-align: center;
+    }
+    .skillflex h2{
+        font-size: 21px;
+        padding-top: 10px;
+    }
+    .skillflex ul {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: justify;
+        padding-left: 100px;
+        padding-top: 10px;
     }
 }
 @media(min-width:1020px){
